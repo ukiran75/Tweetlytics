@@ -14,10 +14,10 @@ public class TweetTopology {
 
         TopologyBuilder builder = new TopologyBuilder();
         TwitterSpout twitterSpout = new TwitterSpout(
-                "t0uyXdYDKJXmLHZ9NKOvA6isH",
-                "lYivt7Ba87NuuU06j2oqXldLx8Dxba1jfYNSk4dyi4IaMuXDkw",
-                "470208410-g4tSy3WyQasTLXHUyXKYDotgFjHTXDtq48y1hAWc",
-                "l66oBDwPS29y2RJHLp4B5qG1egXXrSd0ZPrFKEXn47jQd"
+                "#CUSTKEY",
+                "#custsecret",
+                "#accesstoken",
+                "#accesssecret"
         );
         // attach the tweet spout to the topology - parallelism of 1
         builder.setSpout("tweet-spout", twitterSpout, 3);
