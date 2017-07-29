@@ -12,7 +12,7 @@ Implemented a real time analytics engine using tweets from twitter data stream f
 
 ## Tweetlytics in Action:
 
-![alt Tweetlytics](https://s3-us-west-1.amazonaws.com/full-stack-projects/Proj+4.PNG "Tweetlytics in action")
+![alt Tweetlytics](https://s3-us-west-1.amazonaws.com/full-stack-projects/Tweetlytics.PNG "Tweetlytics in action")
 
 ## Technologies Used:
 
